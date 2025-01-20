@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Password Generator</title>
+<link rel="stylesheet" href="PasswordGen.css">
+
+
+</head>
+
+<body>
+<div class="container" id="parent">
+
+<h1>Password Generator</h1>
+
+<div id="password"></div>
+<br>
+Password Length&nbsp;<div id="length"></div>
+<input type="range" id="bar" min="1" max="20">
+<br>
+<div class="subContainer">
+<div class="space"><div class="option">Letters:</div><input type="checkbox" id="letter" class="input"></div>
+<div class="space"><div class="option">Numbers:</div><input type="checkbox" id="number" class="input"></div>
+<div class="space"><div class="option">Symbols:</div><input type="checkbox" id="symbol" class="input"></div>
+</div><br>
+<br>
+<button id="button">Generate Password</button>
+
+
+</div>
+<script src="passwordGenerator.js"></script>
+</body>
+</html>
